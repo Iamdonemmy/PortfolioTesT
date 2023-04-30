@@ -32,10 +32,10 @@ const Abt = () => (
       </ul>
     </div>
     <div className={styles.link}>
-      <Link href="https://docs.google.com/document/d/1guLVGmMHdhOEwZAVogeYqqd24TH_Ub-bFpnwpJIYpJY/edit?usp=sharing">
+      <Link href="https://drive.google.com/file/d/1ImSpbjRk5pwMfP34vSBzO4BjNfbwGQJ0/view?usp=drivesdk">
         Checkout my resume
       </Link>
-      <Link href="/projects">See my project</Link>
+      <Link href="/projects">See my Projects</Link>
     </div>
   </main>
 );
