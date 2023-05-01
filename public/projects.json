@@ -25,7 +25,7 @@
       "project": "https://myportfolio-chi-beige.vercel.app/",
       "image": "/portfolio.jpg",
       "group": "portfolio",
-      "title": "Emmanuel Porfolio",
+      "title": "Emmanuel Portfolio",
       "source": "#",
       "desc": "A portfolio project, which houses all projects, resumes, and social links to reach tobby, the project has a project section, an about myself section, contact me.",
       "stacks": ["Html", "CSS", "JavaScript", "React", "Vercel"]
