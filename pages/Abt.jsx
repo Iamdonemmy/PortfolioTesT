@@ -6,9 +6,9 @@ const Abt = () => (
     <div className={styles.text}>
       <p>
         My name is Emmanuel Abiodun, I am a Software Engineer (web). I am vast
-        with Javascript, Node, TypeScript, React.JS, Next.JS. I also deals with
-        Project Management. I current live in lagos, Nigeria and I love to work
-        remotely. You can always connect with me via my socials{" "}
+        with Javascript, Node, TypeScript, React.JS, Next.JS. I also deal with
+        Project Management. I currently live in lagos, Nigeria and I love to
+        work remotely. You can always connect with me via my socials{" "}
       </p>
       <ul>
         <li>
