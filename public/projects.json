@@ -33,12 +33,12 @@
     {
       "id": 4,
       "project": "https://tobby8629.github.io/Capstone-project/index.html",
-      "image": "/Nts.png",
+      "image": "/tesla.png",
       "group": "others",
-      "title": "Nts Summit",
+      "title": "Tesla",
       "source": "#",
-      "desc": "A National summit website, that describes all activities involved and expected from the summit.",
-      "stacks": ["Html", "CSS", "JavaScript"]
+      "desc": "Tesla website, a website where you can order varities of cars.",
+      "stacks": ["Html", "Style component", "JavaScript", "Redux", "React"]
     },
     {
       "id": 5,
