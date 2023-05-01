@@ -81,23 +81,23 @@ nav ul li :hover {
 }
 
 .duty::before {
-  content: "software developer";
+  content: "Software Engineer";
   animation: duty 15s infinite;
 }
 
 @keyframes duty {
   25% {
-    content: "Full-stack developer";
+    content: "Full-stack Developer";
     color: wheat;
   }
 
   50% {
-    content: "Front-End developer";
+    content: "Front-End Developer";
     color: coral;
   }
 
   75% {
-    content: "Software Engineer";
+    content: "Project Manager";
     color: darkorange;
   }
 }

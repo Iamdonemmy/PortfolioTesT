@@ -5,8 +5,8 @@ const Abt = () => (
   <main className={styles.mobile}>
     <div className={styles.text}>
       <p>
-        My name is Emmanuel Abiodun, I am Software Engineer (web) I am vast with
-        Javascript, Node, TypeScript, React.JS, Next.JS. I also deals with
+        My name is Emmanuel Abiodun, I am a Software Engineer (web). I am vast
+        with Javascript, Node, TypeScript, React.JS, Next.JS. I also deals with
         Project Management. I current live in lagos, Nigeria and I love to work
         remotely. You can always connect with me via my socials{" "}
       </p>
