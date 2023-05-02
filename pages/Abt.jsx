@@ -5,10 +5,10 @@ const Abt = () => (
   <main className={styles.mobile}>
     <div className={styles.text}>
       <p>
-        My name is Emmanuel Abiodun, I am a Software Engineer (web). I am vast
+        My name is Emmanuel Abiodun, I am a Software (web) Engineer. I am vast
         with Javascript, Node, TypeScript, React.JS, Next.JS. I also deal with
-        Project Management. I currently live in lagos, Nigeria and I love to
-        work remotely. You can always connect with me via my socials{" "}
+        Project Management. I currently live in lagos state , Nigeria and I love
+        to work remotely. You can always connect with me via my social handles
       </p>
       <ul>
         <li>
