@@ -1,0 +1,94 @@
+.contact {
+  width: 100%;
+  background-color: pink;
+  margin: auto;
+}
+
+.Getintouch {
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: orangered;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.col1 {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text1 {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: white;
+  color: orangered;
+}
+
+.text1:hover {
+  border: 1px solid orangered;
+}
+
+.phoneno {
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+.phoneno::-webkit-outer-spin-button,
+.phoneno::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.textarea {
+  margin-left: 2rem;
+  height: 5rem;
+  width: 21.5rem;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 20px;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.btn {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.submit {
+  color: white;
+  background-color: orangered;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.submit:hover {
+  color: orangered;
+  background-color: white;
+}
