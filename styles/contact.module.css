@@ -28,6 +28,7 @@
   border: none;
   padding: 12px 20px;
   margin: 8px 0;
+  width: 23%;
   background-color: white;
   color: orangered;
 }
@@ -42,6 +43,12 @@
   border: none;
   padding: 12px 20px;
   margin: 8px 0;
+  width: 23%;
+  color: orangered;
+}
+
+.phoneno:hover {
+  border: 1px solid orangered;
 }
 
 .phoneno::-webkit-outer-spin-button,
@@ -53,27 +60,20 @@
 .textarea {
   margin-left: 2rem;
   height: 5rem;
-  width: 24rem;
+
   outline: none;
   border-radius: 5px;
   border: none;
   padding: 12px 20px;
+  color: orangered;
 }
 
 .textarea:focus {
   outline: none;
 }
 
-.btn {
-  color: white;
-  background-color: orangered;
-  border-radius: 10px;
-  margin-left: 2rem;
-  margin-top: 1rem;
-  width: 5rem;
-  cursor: pointer;
-  border: none;
-  outline: none;
+.textarea:hover {
+  border: 1px solid orangered;
 }
 
 .submit {
@@ -86,9 +86,22 @@
   cursor: pointer;
   border: none;
   outline: none;
+  margin-bottom: 2rem;
 }
 
 .submit:hover {
   color: orangered;
   background-color: white;
 }
+/* 
+@media (max-width: 768px) {
+  .textarea {
+    width: 54%;
+  }
+} */
+
+/* @media (min-width: 375px) {
+  .textarea {
+    width: 60%;
+  }
+} */

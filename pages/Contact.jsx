@@ -53,6 +53,8 @@ export default function Home() {
                 placeholder="Phone No"
                 className={styles.phoneno}
                 required={true}
+                maxlength={4}
+                size={4}
               ></input>
             </div>
           </div>
@@ -61,6 +63,7 @@ export default function Home() {
             placeholder="Message"
             className={styles.textarea}
             required={true}
+            // size={84}
           ></input>
           <div>
             <input
