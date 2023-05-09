@@ -4,7 +4,7 @@
   margin: auto;
 }
 
-.Getintouch {
+.Getin {
   font-size: 2rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -13,6 +13,24 @@
   margin-left: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;
+}
+
+.Touch::before {
+  content: "Touch";
+  animation: animate infinite 3s;
+  padding-left: 1px;
+  color: white;
+}
+
+@keyframes animate {
+  0% {
+    content: "Touch";
+  }
+
+  50% {
+    content: "Touch";
+    color: orangered;
+  }
 }
 
 .col1 {
@@ -60,7 +78,7 @@
 .textarea {
   margin-left: 2rem;
   height: 5rem;
-
+  width: 54%;
   outline: none;
   border-radius: 5px;
   border: none;
@@ -82,7 +100,9 @@
   border-radius: 10px;
   margin-left: 2rem;
   margin-top: 1rem;
-  width: 5rem;
+  height: 3rem;
+  font-size: 1rem;
+  width: 6rem;
   cursor: pointer;
   border: none;
   outline: none;
@@ -93,15 +113,15 @@
   color: orangered;
   background-color: white;
 }
-/* 
-@media (max-width: 768px) {
-  .textarea {
-    width: 54%;
-  }
-} */
 
-/* @media (min-width: 375px) {
+@media (min-width: 1000px) {
   .textarea {
-    width: 60%;
+    width: 51%;
   }
-} */
+}
+
+@media (max-width: 360px) {
+  .textarea {
+    width: 61%;
+  }
+}

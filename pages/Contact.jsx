@@ -20,7 +20,9 @@ export default function Home() {
 
       <div className={styles.contact}>
         <form>
-          <h1 className={styles.Getintouch}>Get in Touch</h1>
+          <h1 className={styles.Getin}>
+            Get in <span className={styles.Touch}> </span>{" "}
+          </h1>
           <div>
             <div className={styles.col1}>
               <input
